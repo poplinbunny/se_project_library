@@ -1,6 +1,6 @@
 .page {
   min-width: 1100px;
-  max-width: 600px;
+  max-width: 1600px;
   margin: 0 auto;
   font-family: "Helvetica Neue";
   font-size: 16px;
@@ -44,7 +44,9 @@
   font-weight: bold;
 }
 
-/* Add the hover state styles for .nav__link here */
+.nav__link:hover {
+  color: #1f69c9;
+}
 
 .header__title {
   font-size: 66px;
@@ -64,6 +66,9 @@
 .header__image {
   max-width: 636px;
   z-index: 1;
+  position: absolute;
+  top: 135px;
+  right: 20px;
 }
 
 .header__footer {
@@ -83,7 +88,9 @@
   text-decoration: none;
 }
 
-/* Add the hover state styles for .header__link here */
+.header__link:hover {
+  color: #1f69c9;
+}
 
 .header__address {
   margin: 0;
@@ -112,12 +119,26 @@
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+.staff___cards {
+  margin: auto;
+  margin-bottom: 0;
+  max-width: 760px;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  gap: 40px;
+  list-style: none;
+}
 
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  width: 360px;
+  height: 420px;
 }
 
 .card__content {
