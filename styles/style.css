@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: "Helvetica Neue", Arial, sans-serf;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -33,7 +33,7 @@
   list-style: none;
   padding-left: 0;
   margin-top: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -242,7 +242,7 @@
   text-decoration: none;
 }
 
-> event__more:hover {
+.events__more:hover {
   color: #1f69c9;
 }
 
@@ -450,7 +450,7 @@
 }
 
 .footer__column-heading {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
 }
 
